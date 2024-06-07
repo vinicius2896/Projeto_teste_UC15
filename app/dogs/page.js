@@ -57,7 +57,7 @@ export default function Dogs() {
                     <li key="todas" onClick={() => buscarImagens()}>Todas as raças</li>
                     <ul>
                         { 
-                            racas.map(r => (
+                            racas.map((r) => (
                                 <li key={r} onClick={() => buscarImagens(r)}>
                                     {r}
                                 </li>
@@ -70,7 +70,7 @@ export default function Dogs() {
                 <div>
                     <h2>{nome}</h2>
                     {imagens.map((imagem, index) => (
-                        <img key={index} src={imagem} alt="Dog" />
+                        <img key={index} src={imagem} alt={`Dog ${index}`} />
                     ))}
                 </div>
             </div>
