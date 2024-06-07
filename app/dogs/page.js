@@ -54,8 +54,8 @@ export default function Dogs() {
             <div className="layout-central">
                 { /* Menu com a lista das raças para clicar */ }
                 <div className="layout-menu">
-                    <li key="todas" onClick={() => buscarImagens()}>Todas as raças</li>
                     <ul>
+                        <li key="todas" onClick={() => buscarImagens()}>Todas as raças</li>
                         { 
                             racas.map((r) => (
                                 <li key={r} onClick={() => buscarImagens(r)}>
@@ -77,4 +77,3 @@ export default function Dogs() {
         </div>
     );
 }
-
