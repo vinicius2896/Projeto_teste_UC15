@@ -1,5 +1,4 @@
-export default function Painel(){
-
+export default function Painel() {
     const usuarios = [
         {
             id: 0,
@@ -43,17 +42,17 @@ export default function Painel(){
             preco: 45.00,
             estoque: 155
         },
-    ]
+    ];
 
-    return(
+    return (
         <div>
             <h1>Painel do administrador</h1>
             <hr/>
             <h2>Lista de usuários:</h2>
             <ul>
                 {
-                    usuarios.map( u => {
-                        return <li>Nome: {u.nome}, idade: {u.idade} anos</li>
+                    usuarios.map(u => {
+                        return <li key={u.id}>Nome: {u.nome}, idade: {u.idade} anos</li>;
                     })
                 }
             </ul>
@@ -61,21 +60,22 @@ export default function Painel(){
             <h2>Lista de produtos:</h2>
             <ul>
                 {
-                    produtos.map( p => {
-                        return <li>
-                            <p> { p.nome } </p>
-                            <p> R$ { p.preco } </p>
-                            { 
-                                p.estoque > 0 ? 
-                                    <p> {p.estoque} disponíveis - <button>Comprar</button> </p>
-                                :
-                                    <p>Produto fora de estoque</p>
-                            } 
-                            
-                        </li>
+                    produtos.map(p => {
+                        return (
+                            <li key={p.id}>
+                                <p>{p.nome}</p>
+                                <p>R$ {p.preco}</p>
+                                { 
+                                    p.estoque > 0 ? 
+                                        <p>{p.estoque} disponíveis - <button>Comprar</button></p>
+                                    :
+                                        <p>Produto fora de estoque</p>
+                                } 
+                            </li>
+                        );
                     })
                 }
             </ul>
         </div>
-    )
+    );
 }
