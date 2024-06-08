@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+1- Acessar o https://github.com pu no github descktop e logar
 
-## Getting Started
+2- ao entrar no github no canto superor esquerdo clicar em "add" e criar um novo repositorio.
 
-First, run the development server:
+3- preecher o novo repositorio com as suas necessidades e dar um criar repositorio,
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4- apos fazer a criacao do novo repositorio fazer o primeiro "commit" para subir para o github as suas mudanças.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5- feito as alteraçoes entrar no site da VERCEL e acessar a conta.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+6-  apos entrar na conta você deve ir em "Add new Project! para adicionar sua conta.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+7- apos isso vincular a conta do github no site da vercel pois apos as alteracoes feitas no github sera alterada na vercel.
 
-## Learn More
+8- Com a  conta do "GitHub" estiver vinculado com o v!ercel!  importar o repositório criado  para poder realizar seu primeiro Deploy.
 
-To learn more about Next.js, take a look at the following resources:
+9- apos ter feito o deploy o site estara no ar.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Envio do NextUS no github
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1- Acessar sua conta no github e fazer o login na sua conta.
 
-## Deploy on Vercel
+2- apos logado vá em novo no canto direito em cima.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3- preencher o seu novo repositorio 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4- clique em "criar repositório"
+
+5- com o repositorio criado basta desenvolver o NextUS.
+
+apos feito a alteracao ir no termimal e dar o comando "npx next build" isso gera arquivos para o githubPages
+
+isso ira gerar uma pas old dentro dela havera os arquivos criados
+
+logo apos pegar os arquivos da pasta old e colar no repositorio github
+
+apos a criacao dar o commit que foram gerados na pasta old. desta forma os arquivos criados serao publicados no repositorio.
+
+apos isso procurar o endereco https://usuario.github.io e nisso tera a github Page.
+
+
+
+
+
+
+
+ 
+
